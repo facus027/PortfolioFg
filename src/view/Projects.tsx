@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 export default function Projects() {
     return (
         <>
-            <div className="w-2/3 h-96 border border-gray-200 rounded-xl z-40 mx-auto overflow-y-scroll shadow-2xl bg-transparent ">
+            <div className="lg:w-2/3 w-full h-96 border border-gray-200 mt-20 lg:mt-0 rounded-xl z-40 mx-auto overflow-y-scroll shadow-2xl bg-transparent mb-36 overflow-x-hidden">
                 <div className="flex flex-col gap-3 mt-2">
                     <div className="flex flex-col w-4/5 border-2 gap-5 border-gray-300 rounded-lg mx-auto py-4">
-                        <div className="w-96 flex">
-                            <img className="text-center flex-1" src="/public/SerranoAndes.jpg" alt="ImgWebSerrano" />
+                        <div className="w-96 flex flex-col lg:flex-row gap-2">
+                            <img className="text-center flex-1 w-2/3 lg:w-full" src="/public/SerranoAndes.jpg" alt="ImgWebSerrano" />
                             <div className="flex-1 flex justify-center items-center ml-20 gap-5">
                                 <Link className="p-2 bg-gray-500 rounded-full hover:border-black hover:border-2"
                                     to={'https://serranoandes.com/'} target="_blank">
@@ -37,8 +37,8 @@ export default function Projects() {
                     </div>
 
                     <div className="flex flex-col w-4/5 border-2 gap-5 border-gray-300 rounded-lg mx-auto py-4">
-                        <div className="w-96 flex">
-                            <img className="text-center flex-1" src="/public/cotillon.jpg" alt="ImgWebSerrano" />
+                        <div className="w-96 flex flex-col lg:flex-row gap-2">
+                            <img className="text-center flex-1 w-2/3 lg:w-full" src="/public/cotillon.jpg" alt="ImgWebSerrano" />
                             <div className="flex-1 flex justify-center items-center ml-20 gap-5">
                                 <Link className="p-2 bg-gray-500 rounded-full hover:border-black hover:border-2"
                                     to={'https://coti-frontend.vercel.app/'} target="_blank">
@@ -66,8 +66,8 @@ export default function Projects() {
                     </div>
 
                     <div className="flex flex-col w-4/5 border-2 gap-5 border-gray-300 rounded-lg mx-auto py-4">
-                        <div className="w-96 flex">
-                            <img className="text-center flex-1" src="/public/cocktail.jpg" alt="ImgWebSerrano" />
+                        <div className="w-96 flex flex-col lg:flex-row gap-2">
+                            <img className="text-center flex-1 w-2/3 lg:w-full" src="/public/cocktail.jpg" alt="ImgWebSerrano" />
                             <div className="flex-1 flex justify-center items-center ml-20 gap-5">
                                 <Link className="p-2 bg-gray-500 rounded-full hover:border-black hover:border-2"
                                     to={'https://kaleidoscopic-bubblegum-a9b786.netlify.app/'} target="_blank">
@@ -93,8 +93,8 @@ export default function Projects() {
                     </div>
 
                     <div className="flex flex-col w-4/5 border-2 gap-5 border-gray-300 rounded-lg mx-auto py-4">
-                        <div className="w-96 flex">
-                            <img className="text-center flex-1" src="/public/guitarLa.jpg" alt="ImgWebSerrano" />
+                        <div className="w-96 flex flex-col lg:flex-row gap-2">
+                            <img className="text-center flex-1 w-2/3 lg:w-full" src="/public/guitarLa.jpg" alt="ImgWebSerrano" />
                             <div className="flex-1 flex justify-center items-center ml-20 gap-5">
                                 <Link className="p-2 bg-gray-500 rounded-full hover:border-black hover:border-2"
                                     to={'https://friendly-nasturtium-41d1cd.netlify.app/'} target="_blank">

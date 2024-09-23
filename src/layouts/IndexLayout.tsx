@@ -20,7 +20,7 @@ export default function IndexLayout() {
             </div>
 
             <div className='h-28'>
-                <p className=" text-end font-playfair text-xl text-white mr-3 mt-12">Facundo Miguel Guelis &copy; {new Date().getFullYear()}</p>
+                <p className=" text-end  hidden lg:block font-playfair text-xl text-white mr-3 mt-12">Facundo Miguel Guelis &copy; {new Date().getFullYear()}</p>
             </div>
 
         </div>

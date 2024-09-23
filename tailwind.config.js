@@ -6,10 +6,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'body-pattern': "url('/public/portfolio-bg.jpg')",
-        'certificate-react': "url('/public/certificado React.jpg')",
-        'certificate-tailwind': "url('/public/certificado talwind.jpg')",
-        'certificate-egg': "url('/public/Certificado_Programacion_desde_Cero.jpg')",
+        'body-pattern': "url('https://res.cloudinary.com/dwxwejuvu/image/upload/v1727093664/Portfolio%20FacuG/yacmu4smfggxfqmvmcju.jpg')",
+        'certificate-react': "url('https://res.cloudinary.com/dwxwejuvu/image/upload/v1727094616/Portfolio%20FacuG/adgudhdziups9v9mxiwy.jpg')",
+        'certificate-tailwind': "url('https://res.cloudinary.com/dwxwejuvu/image/upload/v1727094616/Portfolio%20FacuG/if3ummrhfijju3mycest.jpg')",
+        'certificate-egg': "url('https://res.cloudinary.com/dwxwejuvu/image/upload/v1727094616/Portfolio%20FacuG/pe6dxtg3h6wq45lgdfvn.jpg')",
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],

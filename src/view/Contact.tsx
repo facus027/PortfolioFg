@@ -6,13 +6,14 @@ import { BsTelephone } from "react-icons/bs"
 import { SlSocialLinkedin } from "react-icons/sl"
 import { RiGithubLine } from "react-icons/ri";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaFilePdf } from "react-icons/fa6"
 
 export default function Contact() {
     return (
         <>
-            <div className=" h-72 w-2/3 ml-48 ">
+            <div className=" h-72 lg:w-2/3 w-full lg:ml-48 ">
                 <div className="flex flex-col ">
-                    <ul className="text-white font-robotoSlab space-y-4 text-2xl p-4 ">
+                    <ul className="text-white font-robotoSlab lg:space-y-4 space-y-1 lg:text-2xl text-base lg:p-4 p-1 mt-20 lg:mt-0">
                         <li className="flex gap-5">
                             <span className="animate-slideIn3"
                             ><FaRegUser size={30} /></span>
@@ -58,8 +59,16 @@ export default function Contact() {
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <h1 className="text-3xl font-playfair animate-fadeIn4 text-white font-bold tracking-wider uppercase text-end mt-10">Gracias por su visita...</h1>
+                <div className="flex flex-col">
+                    <div className="flex-1 p-1 border-2 lg:w-60 w-52 rounded-3xl border-gray-400 mt-5 bg-slate-600 text-white font-playfair text-base lg:text-xl">
+                        <a className="text-center flex gap-7 uppercase animate-fadeIn4 tracking-wider group px-0.5"
+                            href="/public/certificado_fullStack.pdf" download="Facundo_Guelis_CV.pdf">
+                            Descargar cv <FaFilePdf className=" group-hover:text-black" size={30} />
+                        </a>
+                    </div>
+                    <div className="flex-1">
+                        <h1 className="lg:text-3xl text-xl font-playfair animate-fadeIn4 text-white font-bold tracking-wider uppercase text-end mt-5">Gracias por su visita...</h1>
+                    </div>
                 </div>
             </div>
         </>

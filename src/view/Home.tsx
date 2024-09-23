@@ -3,11 +3,11 @@
 export default function Home() {
     return (
         <>
-            <div className=" flex flex-col gap-3">
-                <h1 className="text-3xl text-white font-bold font-poppins animate-fadeIn">
+            <div className=" flex flex-col gap-3 overflow-y-scroll lg:overflow-hidden h-96 mt-20 lg:mt-0 pb-14">
+                <h1 className="lg:text-3xl text-lg text-white font-bold font-poppins animate-fadeIn">
                     Hola, mi nombre es Facundo. Soy desarrollador Full Stack,
                 </h1>
-                <p className='text-xl ml-2 text-white font-robotoSlab w-5/6 flex flex-col gap-2 transition-all duration-300'>
+                <p className='lg:text-xl text-base ml-2 text-white font-robotoSlab w-5/6 flex flex-col gap-2 transition-all duration-300'>
                     <span className="ml-10 animate-slideIn2">
                         * Con experiencia en el desarrollo de aplicaciones web utilizando tecnologías como React, Node.js, y TypeScript,
                         apasionado por la creación de soluciones digitales innovadoras y funcionales.

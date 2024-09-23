@@ -9,14 +9,14 @@ export default function Education() {
 
     return (
         <>
-            <div className="flex flex-row gap-10 w-5/6 mx-auto">
+            <div className="flex lg:flex-row flex-col lg:gap-10 gap-2 w-5/6 mx-auto mt-16 lg:mt-0 overflow-y-scroll h-96 lg:overflow-y-visible pb-20 lg:pb-0">
                 <div className="flex flex-col h-72 w-72 rounded-full border border-gray-600 hover:shadow-2xl shadow-slate-600">
                     <div className="mt-16 ml-9 hover:scale-125 transition duration-300 animate-fadeIn"
                         onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
                     >
                         <div className="bg-certificate-egg bg-contain bg-no-repeat h-32"></div>
-                        <h1 className="text-xl text-white font-poppins text-center -ml-8 mt-3 animate-slideIn2">
+                        <h1 className="lg:text-xl text-base text-white font-poppins text-center -ml-8 mt-3 animate-slideIn2">
                             Developer Full Stack
                         </h1>
                         <div className='relative bottom-2 left-8'
@@ -42,7 +42,7 @@ export default function Education() {
                         onMouseEnter={() => setIsHovered1(true)}
                         onMouseLeave={() => setIsHovered1(false)}>
                         <div className="bg-certificate-react bg-contain ml-6 bg-no-repeat h-32"></div>
-                        <h1 className="text-xl text-white font-poppins text-center -ml-8 mt-3 animate-slideIn2">
+                        <h1 className="lg:text-xl text-base text-white font-poppins text-center -ml-8 mt-3 animate-slideIn2">
                             React y TypeScript
                         </h1>
                     </div>
@@ -68,7 +68,7 @@ export default function Education() {
                         onMouseEnter={() => setIsHovered2(true)}
                         onMouseLeave={() => setIsHovered2(false)}>
                         <div className="bg-certificate-tailwind bg-contain ml-6 bg-no-repeat h-32"></div>
-                        <h1 className="text-xl text-white font-poppins text-center -ml-8 mt-3 animate-slideIn2">
+                        <h1 className="lg:text-xl text-base text-white font-poppins text-center -ml-8 mt-3 animate-slideIn2">
                             Talwind CSS
                         </h1>
                         <div className='relative bottom-2 left-8'
