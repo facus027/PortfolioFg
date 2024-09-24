@@ -26,7 +26,7 @@ export default function Education() {
                                 <>
                                     <div className="h-36 w-56 mt-5 text-center -ml-10 border-2 rounded-xl border-gray-400 ">
                                         <ul className=" p-2 text-white font-robotoSlab">
-                                            <li> Pseudocodigo en PSeint. </li>
+                                            <li> Spring, React </li>
                                             <li> Algoritmos y Estructuras de control.</li>
                                             <li> Clases virtuales en vivo.</li>
                                             <li> Habilidades blandas.</li>

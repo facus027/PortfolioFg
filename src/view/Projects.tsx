@@ -9,14 +9,14 @@ export default function Projects() {
                 <div className="flex flex-col gap-3 mt-2">
                     <div className="flex flex-col w-4/5 border-2 gap-5 border-gray-300 rounded-lg mx-auto py-4">
                         <div className="w-96 flex flex-col lg:flex-row gap-2">
-                            <img className="text-center flex-1 w-2/3 lg:w-full" src="/public/SerranoAndes.jpg" alt="ImgWebSerrano" />
+                            <img className="text-center flex-1 w-2/3 lg:w-full" src="https://res.cloudinary.com/dwxwejuvu/image/upload/v1727093703/Portfolio%20FacuG/qahpry7j3alww3frtm0p.jpg" alt="ImgWebSerrano" />
                             <div className="flex-1 flex justify-center items-center ml-20 gap-5">
                                 <Link className="p-2 bg-gray-500 rounded-full hover:border-black hover:border-2"
                                     to={'https://serranoandes.com/'} target="_blank">
                                     <ImEnlarge2 size={40} />
                                 </Link>
                                 <Link className="p-2 bg-gray-500 rounded-full hover:border-black hover:border-2"
-                                    to={"/"} target="_blank">
+                                    to={"https://github.com/facus027/SerranoAndes"} target="_blank">
                                     <RiGithubLine size={40} />
                                 </Link>
                             </div>
@@ -28,24 +28,23 @@ export default function Projects() {
                         </div>
                         <div className="w-11/12 text-base text-white text-center font-robotoSlab">
                             <p>
-                                En esta web trabaje en cooperacion con un diseñador grafico que fue el encardo de brindarme,
-                                colore,fuentes,contenido e imagenes necesarias para la elaboracion del proyecto.
-                                Los llamado a la accion de la web hace que el cliente tenga un lugar para brindar informacion sobre
-                                su emprendimiento.
+                                En esta web trabajé en cooperación con un diseñador gráfico, quien fue el encargado de brindarme, colores,
+                                fuentes, contenidos e imágenes necesarias para la elaboración del proyecto. Los llamados a la acción de la web,
+                                hacen que el cliente tenga un lugar para brindar información sobre su emprendimiento
                             </p>
                         </div>
                     </div>
 
                     <div className="flex flex-col w-4/5 border-2 gap-5 border-gray-300 rounded-lg mx-auto py-4">
                         <div className="w-96 flex flex-col lg:flex-row gap-2">
-                            <img className="text-center flex-1 w-2/3 lg:w-full" src="/public/cotillon.jpg" alt="ImgWebSerrano" />
+                            <img className="text-center flex-1 w-2/3 lg:w-full" src="https://res.cloudinary.com/dwxwejuvu/image/upload/v1727093694/Portfolio%20FacuG/lupwicf9ezaqtwzsb21q.jpg" alt="ImgWebSerrano" />
                             <div className="flex-1 flex justify-center items-center ml-20 gap-5">
                                 <Link className="p-2 bg-gray-500 rounded-full hover:border-black hover:border-2"
                                     to={'https://coti-frontend.vercel.app/'} target="_blank">
                                     <ImEnlarge2 size={40} />
                                 </Link>
                                 <Link className="p-2 bg-gray-500 rounded-full hover:border-black hover:border-2"
-                                    to={"/"} target="_blank">
+                                    to={"https://github.com/facus027/CotiFrontend"} target="_blank">
                                     <RiGithubLine size={40} />
                                 </Link>
                             </div>
@@ -57,24 +56,23 @@ export default function Projects() {
                         </div>
                         <div className="w-11/12 text-base text-white text-center font-robotoSlab">
                             <p>
-                                Esta web con carrito de compra y administracion de invertarion con herramientas como
-                                creacion,edicion y administrar la disponibilidad, tiene como inovacion poder aumentar los
-                                precios de todos los productos de una categoria.
-                                Tambien responcive,buena experiencia para el usuaria y cliente.
+                                Esta web posee carrito de compra y administración de inventarion con herramientas como creación,
+                                edición y administrar la disponibilidad, tiene como innovación poder aumentar los precios de todos
+                                los productos de una categoría. También es responcive, buena experiencia para el usuario y cliente.
                             </p>
                         </div>
                     </div>
 
                     <div className="flex flex-col w-4/5 border-2 gap-5 border-gray-300 rounded-lg mx-auto py-4">
                         <div className="w-96 flex flex-col lg:flex-row gap-2">
-                            <img className="text-center flex-1 w-2/3 lg:w-full" src="/public/cocktail.jpg" alt="ImgWebSerrano" />
+                            <img className="text-center flex-1 w-2/3 lg:w-full" src="https://res.cloudinary.com/dwxwejuvu/image/upload/v1727093691/Portfolio%20FacuG/p0noignowi8fa9uklhdd.jpg" alt="ImgWebSerrano" />
                             <div className="flex-1 flex justify-center items-center ml-20 gap-5">
                                 <Link className="p-2 bg-gray-500 rounded-full hover:border-black hover:border-2"
                                     to={'https://kaleidoscopic-bubblegum-a9b786.netlify.app/'} target="_blank">
                                     <ImEnlarge2 size={40} />
                                 </Link>
                                 <Link className="p-2 bg-gray-500 rounded-full hover:border-black hover:border-2"
-                                    to={"/"} target="_blank">
+                                    to={"https://github.com/facus027/Cocktail-Api-Drink"} target="_blank">
                                     <RiGithubLine size={40} />
                                 </Link>
                             </div>
@@ -86,22 +84,21 @@ export default function Projects() {
                         </div>
                         <div className="w-11/12 text-base text-white text-center font-robotoSlab">
                             <p>
-                                Este demo creado con React consume una API externa donde se le envia consultas.
-
+                                Este demo creado con React, consume una API externa donde se le envia consultas.
                             </p>
                         </div>
                     </div>
 
                     <div className="flex flex-col w-4/5 border-2 gap-5 border-gray-300 rounded-lg mx-auto py-4">
                         <div className="w-96 flex flex-col lg:flex-row gap-2">
-                            <img className="text-center flex-1 w-2/3 lg:w-full" src="/public/guitarLa.jpg" alt="ImgWebSerrano" />
+                            <img className="text-center flex-1 w-2/3 lg:w-full" src="https://res.cloudinary.com/dwxwejuvu/image/upload/v1727093703/Portfolio%20FacuG/bjahfhgvkywa2nwtmblf.jpg" alt="ImgWebSerrano" />
                             <div className="flex-1 flex justify-center items-center ml-20 gap-5">
                                 <Link className="p-2 bg-gray-500 rounded-full hover:border-black hover:border-2"
                                     to={'https://friendly-nasturtium-41d1cd.netlify.app/'} target="_blank">
                                     <ImEnlarge2 size={40} />
                                 </Link>
                                 <Link className="p-2 bg-gray-500 rounded-full hover:border-black hover:border-2"
-                                    to={"/"} target="_blank">
+                                    to={"https://github.com/facus027/Cartshop-guitar"} target="_blank">
                                     <RiGithubLine size={40} />
                                 </Link>
                             </div>
@@ -113,8 +110,8 @@ export default function Projects() {
                         </div>
                         <div className="w-11/12 text-base text-white text-center font-robotoSlab">
                             <p>
-                                En este demo de carrito de compra se utilaza para el backend Node.js con express y una base de dato en PosgrestDB
-                                El frontend es consumido con sequelize, zustand para el manejo del carrito y zop para los Types.
+                                En este demo de carrito de compra se utilaza, zustand para el manejo del carrito y zod para
+                                los Types.
                             </p>
                         </div>
                     </div>

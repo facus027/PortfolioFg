@@ -35,7 +35,7 @@ export default function Contact() {
                         <li className="flex gap-5">
                             <span className="animate-slideIn3"
                             ><BsTelephone size={30} /></span>
-                            <p className="animate-fadeIn3">+549 263438-1630</p>
+                            <p className="animate-fadeIn3">+54 9 263 438-1630</p>
                             <Link className="hover:text-green-400 -ml-3 rounded-full"
                                 to={'https://wa.me/5492634381630'} target="_blank">
                                 <FaWhatsapp size={20} />
@@ -62,7 +62,7 @@ export default function Contact() {
                 <div className="flex flex-col">
                     <div className="flex-1 p-1 border-2 lg:w-60 w-52 rounded-3xl border-gray-400 mt-5 bg-slate-600 text-white font-playfair text-base lg:text-xl">
                         <a className="text-center flex gap-7 uppercase animate-fadeIn4 tracking-wider group px-0.5"
-                            href="/public/certificado_fullStack.pdf" download="Facundo_Guelis_CV.pdf">
+                            href="https://drive.google.com/file/d/1HSg50cS30juik53B0d5EF5Xm7ldFB1Lh/view?usp=sharing" target="_blank" download="Facundo_Guelis_CV.pdf">
                             Descargar cv <FaFilePdf className=" group-hover:text-black" size={30} />
                         </a>
                     </div>
