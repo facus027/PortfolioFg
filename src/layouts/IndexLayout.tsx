@@ -6,7 +6,7 @@ export default function IndexLayout() {
 
 
     return (
-        <div className='bg-body-pattern bg-center container bg-repeat-y lg:bg-cover max-w-screen-2xl max-h-screen'>
+        <div className='bg-body-pattern bg-center container bg-cover max-w-screen-2xl max-h-screen'>
 
 
             <div className="h-32 ">
